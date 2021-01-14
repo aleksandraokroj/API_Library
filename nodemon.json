@@ -1,0 +1,8 @@
+{
+
+  "env": {
+    "password": "Password123",
+    "hasloJWT": "secret"
+  }
+
+}
