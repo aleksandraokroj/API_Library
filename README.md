@@ -1,6 +1,6 @@
 # API_Library
 <b>Authors: Natalia Skórowska, Aleksandra Okrój<br>
-Subject: API: Biblioteka <br>
+Subject: API for a Library <br>
 Programming Language: JavaScript <br>
 Database: MongoDB<br>
 Project structure:</b><br>
