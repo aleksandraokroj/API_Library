@@ -1,26 +1,26 @@
 # API_Library
-<b>Autorzy: Natalia Skórowska, Aleksandra Okrój<br>
-Tematyka API: Biblioteka <br>
-Język: JavaScript <br>
-Baza: MongoDB<br>
-Struktura Projektu:</b><br>
+<b>Authors: Natalia Skórowska, Aleksandra Okrój<br>
+Subject: API: Biblioteka <br>
+Programming Language: JavaScript <br>
+Database: MongoDB<br>
+Project structure:</b><br>
 ![Struktura projektu](./ReadMeImages/Api1.png)<br>
-<b>app.js</b> – import routów, połączenie z bazą, obsługa błędów <br>
+<b>app.js</b> – routes import, database connection, error handling<br>
 ![app.js](./ReadMeImages/Api2.png)<br>
 ![app.js](./ReadMeImages/Api3.png)<br>
 <b>server.js</b><br>
 ![server.js](./ReadMeImages/Api4.png)<br>
 <b>Controllers:</b> <br>
-•	books.js – funkcje wyświetlenia listy książek, dodania nowej książki, wyświetlenia książki o konkretnym id, edytowania książki o konkretnym id, usunięcia książki o konkretnym id <br>
+•	books.js – displaying list of books, adding a new book, displaying books by id, editing books by id, deleting books by id
 ![books.js](./ReadMeImages/Api5.png)<br>
 ![books.js](./ReadMeImages/Api6.png)<br>
 ![books.js](./ReadMeImages/Api7.png)<br>
-•	borrowedBooks.js – funkcje wyświetlenia listy wypożyczeni, dodania nowego wypożyczenia, wyświetlenia wypożyczenia o konkretnym id, edytowania wypożyczenia o konkretnym id, usunięciu wypożyczenia o konkretnym id<br>
+•	borrowedBooks.js – displaying list of boorowed books, adding a new borrowed book, displaying borrowed books by id, editing borrowed books by id, deleting borrowed books by id
 ![borrowedBooks.js](./ReadMeImages/Api8.png)<br>
 ![borrowedBooks.js](./ReadMeImages/Api9.png)<br>
 ![borrowedBooks.js](./ReadMeImages/Api10.png)<br>
 <b>Middleware:</b><br>
-check-auth.js – uwierzytelnianie<br>
+check-auth.js – authorization<br>
 ![check-auth.js](./ReadMeImages/Api11.png)<br>
 <b>Models:</b><br>
 •	book.js<br> 
@@ -38,7 +38,7 @@ check-auth.js – uwierzytelnianie<br>
 ![users.js](./ReadMeImages/Api17.png)<br>
 ![users.js](./ReadMeImages/Api18.png)<br>
 ![users.js](./ReadMeImages/Api19.png)<br>
-<b>Efekty:</b> <br>
+<b>Results:</b> <br>
 •	GET books/ <br>
 ![efekty](./ReadMeImages/Api20.png)<br>
 •	GET books/:bookId<br>
